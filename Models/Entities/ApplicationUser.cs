@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace rmi.medicine.doctor.Models.Entities
+namespace rmiMedicineDoctor.Models.Entities
 {
   public class ApplicationUser : IdentityUser
   {

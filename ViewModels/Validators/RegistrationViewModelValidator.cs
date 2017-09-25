@@ -10,6 +10,7 @@ namespace rmiMedicineDoctor.ViewModels.Validators
       RuleFor(vm => vm.Password).NotEmpty().WithMessage("Пароль не может быть пустым");
       RuleFor(vm => vm.FirstName).NotEmpty().WithMessage("Имя должно быть указано");
       RuleFor(vm => vm.LastName).NotEmpty().WithMessage("Фамилия должна быть указана");
+      RuleFor(vm => vm.StaffPosition).NotEmpty().WithMessage("Должность должна быть указана");
     }
   }
 }

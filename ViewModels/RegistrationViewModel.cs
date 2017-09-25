@@ -10,6 +10,8 @@ namespace rmiMedicineDoctor.ViewModels
     public string Password { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
-    public string Location { get; set; }
+    public string MiddleName { get; set; }
+    public string StaffPosition { get; set; }
+    public string AcademicRank { get; set; }
   }
 }

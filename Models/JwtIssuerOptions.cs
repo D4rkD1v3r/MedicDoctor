@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
 
-namespace rmi.medicine.doctor.Models
+namespace rmiMedicineDoctor.Models
 {
   public class JwtIssuerOptions
   {

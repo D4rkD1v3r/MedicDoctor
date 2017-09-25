@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace rmi.medicine.doctor.Models.Entities
+namespace rmiMedicineDoctor.Models.Entities
 {
   /// <summary>
   /// Запись о докторе.

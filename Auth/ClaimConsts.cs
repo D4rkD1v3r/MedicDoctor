@@ -5,7 +5,7 @@ namespace rmi.medicine.doctor.Auth
   /// </summary>
   public static class ClaimConsts
   {
-    public static string IdClaimName = "id";
+    public static string IdClaimName = "Id";
     public static string RoleClaimName = "role";
   }
 }

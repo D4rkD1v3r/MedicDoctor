@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace rmi.medicine.doctor
+namespace rmiMedicineDoctor
 {
     public class Program
     {

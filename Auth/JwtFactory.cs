@@ -4,9 +4,10 @@ using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
-using rmi.medicine.doctor.Models;
+using rmi.medicine.doctor.Auth;
+using rmiMedicineDoctor.Models;
 
-namespace rmi.medicine.doctor.Auth
+namespace rmiMedicineDoctor.Auth
 {
   /// <summary>
   /// Обработка токенов.

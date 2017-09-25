@@ -1,5 +1,5 @@
 using AutoMapper;
-using rmi.medicine.doctor.Models.Entities;
+using rmiMedicineDoctor.Models.Entities;
 
 namespace rmiMedicineDoctor.ViewModels.Mapping
 {

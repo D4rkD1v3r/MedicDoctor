@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using rmiMedicineDoctor.Models.Entities;
 
-namespace rmi.medicine.doctor.Data
+namespace rmiMedicineDoctor.Data
 {
   public class ApplicationDbContext : IdentityDbContext
   {
@@ -9,6 +10,6 @@ namespace rmi.medicine.doctor.Data
     {
     }
 
-    public DbSet<Models.Entities.MedicalDoctor> MedicalDoctors { get; set; }
+    public DbSet<MedicalDoctor> MedicalDoctors { get; set; }
   }
 }
