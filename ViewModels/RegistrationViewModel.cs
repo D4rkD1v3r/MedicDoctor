@@ -1,7 +1,7 @@
 using FluentValidation.Attributes;
-using Ng2AspNetCore.ViewModels.Validations;
+using rmiMedicineDoctor.ViewModels.Validators;
 
-namespace Ng2AspNetCore.ViewModels
+namespace rmiMedicineDoctor.ViewModels
 {
   [Validator(typeof(RegistrationViewModelValidator))]
   public class RegistrationViewModel

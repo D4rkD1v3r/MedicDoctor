@@ -1,5 +1,4 @@
 using AutoMapper;
-using Ng2AspNetCore.ViewModels;
 using rmi.medicine.doctor.Models.Entities;
 
 namespace rmiMedicineDoctor.ViewModels.Mapping
